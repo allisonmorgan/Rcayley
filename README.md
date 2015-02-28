@@ -16,6 +16,8 @@ To query:
 Query("localhost", "64210", "g.V(\"a\").Out().All()")
 ```
 
+(This should return "null".)
+
 To write (and check that it's written):
 ```{R}
 Write("localhost", "64210", "a", "relates", "b")
