@@ -24,7 +24,7 @@ Write("localhost", "64210", "a", "relates", "b")
 Query("localhost", "64210", "g.V(\"a\").Out().All()")
 ```
 
-To delete (cand check that it's been deleted):
+To delete (and check that it's been deleted):
 ```{R}
 Delete("localhost", "64210", "a", "relates", "b")
 Query("localhost", "64210", "g.V(\"a\").Out().All()")
